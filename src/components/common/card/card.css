@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  border-style: double;
+  border-color: blue;
+  border-width: 5px;
+  margin: 10px;
+}
+.card img {
+  width: 80%;
+  margin: 10px;
+}

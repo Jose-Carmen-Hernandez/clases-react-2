@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fcebb3;
+  padding: 10px;
+  margin: 10px;
+}
+.navbar img {
+  width: 120px;
+}
+
+.categories {
+  list-style: none;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #000;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  border-radius: 25%;
+}
