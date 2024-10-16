@@ -1,16 +1,26 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 200px;
+  width: 25%;
   height: auto;
-  border-style: double;
-  border-color: blue;
-  border-width: 5px;
-  margin: 10px;
+  margin: 25px;
+  padding: 20px;
 }
+.card-light {
+  color: #000;
+}
+
+.card-dark {
+  color: #fff;
+}
+
 .card img {
-  width: 80%;
-  margin: 10px;
+  width: 75%;
+  margin: 20px;
+}
+.card-dark img {
+  width: 75%;
+  margin: 20px;
 }

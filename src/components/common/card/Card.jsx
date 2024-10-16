@@ -25,9 +25,9 @@ import "./card.css";
 }; */
 
 /* La mejor forma es la siguiente: */
-const Card = ({ title, price, stock, img }) => {
+const Card = ({ title, price, stock, img, darkMode }) => {
   return (
-    <div className="card">
+    <div className={darkMode ? " card card-dark" : "card card-light"}>
       <h2>Nombre: {title}</h2>
       <h3>Precio: ${price}</h3>
       <h3>Disponibles: {stock}</h3>
@@ -37,8 +37,3 @@ const Card = ({ title, price, stock, img }) => {
 };
 
 export default Card;
-/* corregir errores de "props validation":
-en el archivo eslint.config.js dentro de "rules" agregamos la linea:
-"react/prop-types": "off",
-tambien se puede usar: "react/prop-types": "0", 
-*/
