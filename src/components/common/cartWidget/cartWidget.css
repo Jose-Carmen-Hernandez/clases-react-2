@@ -1,7 +1,25 @@
 .cart {
-  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: #536be0;
+  font-size: larger;
   font-weight: bold;
 }
-.cart-icon {
-  font-size: 35px;
+.span-dark {
+  color: #fcebb3;
+  font-size: larger;
+  font-weight: bold;
+}
+.icon {
+  color: #000;
+  margin-bottom: 20px;
+}
+.icon-dark {
+  color: #fcebb3;
+  margin-bottom: 20px;
 }

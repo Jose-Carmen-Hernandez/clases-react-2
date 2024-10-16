@@ -4,11 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* clase de ejemplo. No se usa en los componentes */
-/* .container {
+.mode-button {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  background-color: #458963;
 }
- */
+.dark-mode-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.light-style {
+  margin: 10px;
+  color: #000;
+}
+.dark-style {
+  margin: 10px;
+  color: #fff;
+}

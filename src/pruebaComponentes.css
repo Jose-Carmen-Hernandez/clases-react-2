@@ -1,0 +1,14 @@
+.buttons {
+  margin: 30px;
+}
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+  padding: 20px;
+  background: #a5ebdc;
+}
+#outlined-basic #standard-basic {
+  margin: 10px;
+}
