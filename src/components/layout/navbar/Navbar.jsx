@@ -23,28 +23,28 @@ const Navbar = ({ darkMode }) => {
             Alef-Computers
           </h1>
         </div>
-        <ul className={darkMode ? "categories-dark" : "categories"}>
+        <ul className="categories">
           <li>
-            <a className={darkMode ? "li-dark" : "li"} href="">
+            <a className={darkMode ? "li li-dark" : "li"} href="">
               <CabinTwoToneIcon />
               Inicio
             </a>
           </li>
           <li>
-            <a className={darkMode ? "li-dark" : "li"} href="">
+            <a className={darkMode ? "li li-dark" : "li"} href="">
               <LaptopChromebookTwoToneIcon />
               Computadoras
             </a>
           </li>
 
           <li>
-            <a className={darkMode ? "li-dark" : "li"} href="">
+            <a className={darkMode ? "li li-dark" : "li"} href="">
               <HeadsetMicTwoToneIcon />
               Accesorios
             </a>
           </li>
           <li>
-            <a className={darkMode ? "li-dark" : "li"} href="">
+            <a className={darkMode ? "li li-dark" : "li"} href="">
               <DesktopMacTwoToneIcon />
               Monitores
             </a>

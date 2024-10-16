@@ -17,8 +17,6 @@
 }
 
 .light-style {
-  display: flex;
-  flex-direction: column;
   margin: 10px;
   color: #000;
 }
