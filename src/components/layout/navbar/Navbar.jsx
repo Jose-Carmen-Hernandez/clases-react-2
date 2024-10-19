@@ -4,11 +4,12 @@ import CabinTwoToneIcon from "@mui/icons-material/CabinTwoTone";
 import LaptopChromebookTwoToneIcon from "@mui/icons-material/LaptopChromebookTwoTone";
 import HeadsetMicTwoToneIcon from "@mui/icons-material/HeadsetMicTwoTone";
 import DesktopMacTwoToneIcon from "@mui/icons-material/DesktopMacTwoTone";
+import PhoneIphoneTwoToneIcon from "@mui/icons-material/PhoneIphoneTwoTone";
 
 //Navbar recibe la prop "darkMode"
 
 const Navbar = ({ darkMode }) => {
-  console.log("Navbar", darkMode);
+  //console.log("Navbar", darkMode);
 
   return (
     <>
@@ -16,11 +17,11 @@ const Navbar = ({ darkMode }) => {
         <div className="logo-container">
           <img
             className={darkMode ? "dark-logo" : "logo"}
-            src="https://res.cloudinary.com/dkkwppueg/image/upload/v1728355319/alef-logo_cxrxbg.jpg"
+            src="https://res.cloudinary.com/dkkwppueg/image/upload/v1729367221/OIP.YP_QZPiEyHrjr9ciW-du2gAAAA_fscev3.jpg"
             alt="alef electronics logotipo"
           />
           <h1 className={darkMode ? "dark-title" : "light-title"}>
-            Alef-Computers
+            Electronics&more
           </h1>
         </div>
         <ul className="categories">
@@ -34,6 +35,12 @@ const Navbar = ({ darkMode }) => {
             <a className={darkMode ? "li li-dark" : "li"} href="">
               <LaptopChromebookTwoToneIcon />
               Computadoras
+            </a>
+          </li>
+          <li>
+            <a className={darkMode ? "li li-dark" : "li"} href="">
+              <PhoneIphoneTwoToneIcon />
+              Celulares
             </a>
           </li>
 

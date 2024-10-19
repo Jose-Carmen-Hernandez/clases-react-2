@@ -16,11 +16,25 @@
   color: #fff;
 }
 
-.card img {
+.card-image {
   width: 75%;
-  margin: 20px;
+  margin: 25px;
+  transition: 0.5s;
+}
+.card-image:hover {
+  transform: scale(1.125);
 }
 .card-dark img {
   width: 75%;
   margin: 20px;
+}
+.agotado {
+  background-color: crimson;
+  padding: 10px;
+}
+.info {
+  margin: 15px;
+}
+.title {
+  text-transform: capitalize;
 }

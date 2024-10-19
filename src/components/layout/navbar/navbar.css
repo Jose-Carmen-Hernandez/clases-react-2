@@ -1,28 +1,29 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #fcebb3;
+  background-color: rgb(141, 225, 141);
   color: #000;
   padding: 10px;
   flex-wrap: wrap;
+  width: 100%;
 }
-.navbar img {
-  width: 30%px;
-}
+
 .navbar-dark {
   background-color: #000;
 }
 .light-title {
-  color: #000;
+  color: #463fceb2;
+  font-style: italic;
 }
 
 .dark-title {
   color: #fcebb3;
+  font-style: italic;
 }
 
 .categories {
   list-style: none;
-  width: 75%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -47,14 +48,16 @@
   align-items: center;
 }
 .logo {
+  width: 50%;
   border-radius: 25%;
   margin: 10px;
   /* padding: 15px; */
 }
 .dark-logo {
+  width: 50%;
   border-style: dotted;
   border-color: #fcebb3;
-  border-radius: 25%;
+  border-radius: 50%;
   border-width: 3px;
   margin: 10px;
 }

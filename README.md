@@ -1,4 +1,3 @@
--En la after class trabajamos con MUI responsive del minuto 1 al minuto 34. Despues trabajamos con material-icons
--instalamos MUI: npm install @mui/material @emotion/react @emotion/
--instalamos material-icons: npm install @mui/icons-material
--insertamos iconos de mui
+# Clase 7:
+
+-Trabajamos en el archivo fetchingData.jsx para traer informacion de la API jsonplaceholder
