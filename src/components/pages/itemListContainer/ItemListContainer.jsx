@@ -1,7 +1,9 @@
+//ItemListContainer es el contenedor del componente ItemList
+
 import "./itemListContainer.css";
 import products from "../../../products.js";
 import { useEffect, useState } from "react";
-import ItemList from "../../common/itemList/ItemList.jsx";
+import ItemList from "./ItemList.jsx";
 
 const ItemListContainer = ({ darkMode }) => {
   //myProducts inicia como un array vacio:

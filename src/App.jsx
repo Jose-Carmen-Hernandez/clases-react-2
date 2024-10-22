@@ -4,6 +4,7 @@ import ItemListContainer from "./components/pages/itemListContainer/ItemListCont
 import { FormControlLabel } from "@mui/material";
 import { Switch } from "@mui/material";
 import FetchingData from "./components/pages/fetchingData/FetchingData.jsx";
+import CartContainer from "./components/pages/cart/CartContainer.jsx";
 //import CartContainer from "./components/pages/cart/CartContainer.jsx";
 
 function App() {
@@ -24,9 +25,10 @@ function App() {
           className={darkMode ? "dark-style" : "light-style"}
         />
       </div>
-      {/* <ItemListContainer darkMode={darkMode} /> */}
+      <ItemListContainer darkMode={darkMode} />
 
-      <FetchingData />
+      {/*  <FetchingData /> */}
+      <CartContainer />
     </>
   );
 }

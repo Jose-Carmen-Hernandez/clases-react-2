@@ -1,3 +1,5 @@
+//Item es la Card del producto
+
 import "./item.css";
 
 function Item({ item, darkMode }) {
@@ -14,6 +16,9 @@ function Item({ item, darkMode }) {
           <span className="agotado">&quot;Producto agotado&quot;</span>
         )}
       </p>
+      <button className="detail-button">
+        <a href="">Ver detalle</a>
+      </button>
     </div>
   );
 }

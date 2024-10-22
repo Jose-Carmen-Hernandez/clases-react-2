@@ -38,3 +38,12 @@
 .title {
   text-transform: capitalize;
 }
+.detail-button {
+  background-color: #62ed67;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10%;
+}
+.detail-button a {
+  text-decoration: none;
+}

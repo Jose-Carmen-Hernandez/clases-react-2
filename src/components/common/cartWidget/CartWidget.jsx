@@ -4,7 +4,6 @@ import ShoppingCartTwoToneIcon from "@mui/icons-material/ShoppingCartTwoTone";
 const CartWidget = ({ darkMode }) => {
   return (
     <div className="cart">
-      {/* <FaOpencart className="cart-icon/> */}
       <span className={darkMode ? "span-dark" : "span"}>0</span>
       <ShoppingCartTwoToneIcon
         fontSize="large"

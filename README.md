@@ -1,3 +1,3 @@
-# Clase 7:
+# Clase 9:
 
--Trabajamos en el archivo fetchingData.jsx para traer informacion de la API jsonplaceholder
+Configuramos la navegacion
