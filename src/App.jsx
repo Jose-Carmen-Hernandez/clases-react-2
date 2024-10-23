@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <Navbar darkMode={darkMode} />
+      {/* <Navbar darkMode={darkMode} /> */}
 
       <div className={darkMode ? "dark-mode-button" : "mode-button"}>
         <FormControlLabel
