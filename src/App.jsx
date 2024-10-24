@@ -30,9 +30,9 @@ function App() {
       </div>
       {/*  <ItemListContainer darkMode={darkMode} /> */}
       {/*  <ItemDetailContainer darkMode={darkMode} /> */}
-      <Users />
+      {/* <Users /> */}
       <Posts />
-      <Comments />
+      {/* <Comments /> */}
     </>
   );
 }

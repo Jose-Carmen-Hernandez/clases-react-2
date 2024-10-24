@@ -13,3 +13,5 @@ Los customHooks son archivos JS no son componentes JSX
 -En la segunda parte de la clase hacemos un customHook para paginacion de un array de productos
 -//Si una funcion no necesita utilizar contenido de React, se puede crear como una funcion helper de js sin necesidad de ser un customHook
 -//Si una funcion necesita utilizar contenido de React, se debe crear como un customHook
+
+-Usamos el customHook "usePaginate" para tarer una cantidad limitada de resultados en el fetch de "posts" de jsonplaceholder.
