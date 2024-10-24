@@ -1,21 +1,23 @@
 import "./item.css";
+import Button from "@mui/material/Button";
 
-function Item({ item, darkMode }) {
+const Item = ({ item, darkMode }) => {
   return (
     <div className={darkMode ? " card card-dark" : "card card-light"}>
       <h2 className="info title">{item.title}</h2>
       <img src={item.imageUrl} alt={item.title} className="card-image" />
-      <p className="info">Precio: ${item.price.toFixed(2)}</p>
-      <p className="info">
-        <b>Disponibles:</b>{" "}
+      <h3 className="info">Precio: ${item.price.toFixed(2)}</h3>
+      <h3 className="info">
+        <b>Disponibles:</b>
         {item.stock ? (
           <span>{item.stock} unidades.</span>
         ) : (
           <span className="agotado">&quot;Producto agotado&quot;</span>
         )}
-      </p>
+      </h3>
+      <Button variant="outlined">Ver detalle</Button>
     </div>
   );
-}
+};
 
 export default Item;

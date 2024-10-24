@@ -33,7 +33,8 @@
   padding: 10px;
 }
 .info {
-  margin: 15px;
+  margin: 10px;
+  padding-bottom: 10px;
 }
 .title {
   text-transform: capitalize;

@@ -17,13 +17,19 @@ const ItemListContainer = ({ darkMode }) => {
   }, []); //la promesa se resuelve una sola vez debido al array de dependencias vacio
 
   return (
-    <div
-      className={
-        darkMode ? "list-container list-container-dark" : "list-container"
-      }
-    >
-      <ItemList items={items} darkMode={darkMode} />
-    </div>
+    <>
+      <h2 className={darkMode ? "offer offer-dark" : "offer offer-light"}>
+        ¡Toda la tienda con 20% de descuento + 18 msi con Master Card!
+      </h2>
+
+      <div
+        className={
+          darkMode ? "list-container list-container-dark" : "list-container"
+        }
+      >
+        <ItemList items={items} darkMode={darkMode} />
+      </div>
+    </>
   );
 };
 
